@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "java",
             "name": "Current File",
@@ -15,7 +16,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "JavaFxCK_12dca492"
+            "projectName": "JavaFxCK_12dca492",
             "vmArgs": "--module-path \"C:/For_Java_Code/javafx-sdk-21.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
