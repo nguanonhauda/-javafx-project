@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.2660223804679553" prefHeight="400.0" prefWidth="658.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button layoutX="32.0" layoutY="167.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="126.0" text="Quản lý sản phẩm " />
+                  <ImageView fitHeight="114.0" fitWidth="142.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127578279_af03a81f4955cc49116f4f6986e9a515.jpg" />
+                     </image></ImageView>
+                  <Button layoutX="36.0" layoutY="215.0" mnemonicParsing="false" text="Quản lý đơn hàng" />
+                  <Button layoutX="39.0" layoutY="261.0" mnemonicParsing="false" text="Liệt kê đơn hàng" />
+                  <Button layoutX="56.0" layoutY="311.0" mnemonicParsing="false" text="Đăng xuất" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="143.0" fitWidth="98.0" layoutX="27.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127583042_e2163a498aff819eb4fa53c7d8b3d112.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="46.0" layoutY="143.0" prefHeight="18.0" prefWidth="60.0" text="Đồng hồ " />
+                  <ImageView fitHeight="124.0" fitWidth="91.0" layoutX="148.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127579146_cc51cf30ccb16fa88d235e31b601c7e0.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="154.0" layoutY="143.0" text="GIày thể thao" />
+                  <ImageView fitHeight="114.0" fitWidth="98.0" layoutX="254.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127619320_5facb5a1f72502e145dba26078f3f68e.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="268.0" layoutY="143.0" text="Dầu gội đầu" />
+                  <ImageView fitHeight="98.0" fitWidth="91.0" layoutX="366.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127595656_639fa12e0e4f81778188146f0c78c025.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="390.0" layoutY="143.0" text="Áo phông" />
+                  <ImageView fitHeight="133.0" fitWidth="106.0" layoutX="30.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127616981_1551793384d8bf12882b4d1d21e3b03d.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="27.0" layoutY="322.0" text="Tai nghe bluetooth" />
+                  <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="166.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z5301127596248_bf260cd4041212dab1f1caa5737f036f.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="186.0" layoutY="331.0" prefHeight="18.0" prefWidth="51.0" text="   Sữa" />
+                  <Button layoutX="50.0" layoutY="174.0" mnemonicParsing="false" text="Xem " />
+                  <Button layoutX="168.0" layoutY="174.0" mnemonicParsing="false" text="Xem " />
+                  <Button layoutX="276.0" layoutY="174.0" mnemonicParsing="false" text="Xem " />
+                  <Button layoutX="393.0" layoutY="177.0" mnemonicParsing="false" text="Xem " />
+                  <Button layoutX="57.0" layoutY="349.0" mnemonicParsing="false" text="Xem " />
+                  <Button layoutX="186.0" layoutY="352.0" mnemonicParsing="false" text="Xem " />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</Pane>
