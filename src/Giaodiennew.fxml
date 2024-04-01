@@ -62,7 +62,7 @@
                      </image>
                   </ImageView>
                   <Label layoutX="186.0" layoutY="331.0" prefHeight="18.0" prefWidth="51.0" text="   Sữa" />
-                  <Button layoutX="50.0" layoutY="174.0" mnemonicParsing="false" text="Xem " />
+                  <Button layoutX="50.0" layoutY="174.0" mnemonicParsing="false" onAction="#Summit" text="Xem " />
                   <Button layoutX="168.0" layoutY="174.0" mnemonicParsing="false" text="Xem " />
                   <Button layoutX="276.0" layoutY="174.0" mnemonicParsing="false" text="Xem " />
                   <Button layoutX="393.0" layoutY="177.0" mnemonicParsing="false" text="Xem " />

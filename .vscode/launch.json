@@ -5,7 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         
-        
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JavaFxCK_12dca492"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -18,7 +24,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "JavaFxCK_12dca492",
-            "vmArgs": "--module-path \"C:/For_Java_Code/javafx-sdk-21.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/For_Java_Code/openjfx-22_windows-x64_bin-sdk/javafx-sdk-22/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
