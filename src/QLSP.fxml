@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="684.0" style="-fx-background-color: #98ebe0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="517.0" prefWidth="182.0" style="-fx-background-color: #8dacb0;">
@@ -23,22 +22,17 @@
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="32.0" layoutY="205.0" mnemonicParsing="false" text="Quản lý sản phẩm">
+            <Button layoutX="32.0" layoutY="244.0" mnemonicParsing="false" text="Quản lý sản phẩm">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="259.0" mnemonicParsing="false" text="Quản lý đơn hàng">
+            <Button layoutX="32.0" layoutY="311.0" mnemonicParsing="false" text="Quản lý đơn hàng">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="35.0" layoutY="370.0" mnemonicParsing="false" text="Liệt kê đơn hàng">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="32.0" layoutY="309.0" mnemonicParsing="false" text="Quản lý nhân viên">
+            <Button layoutX="32.0" layoutY="372.0" mnemonicParsing="false" text="Quản lý nhân viên">
                <font>
                   <Font size="14.0" />
                </font>
@@ -47,9 +41,9 @@
       </AnchorPane>
       <TableView layoutX="182.0" prefHeight="231.0" prefWidth="503.0">
         <columns>
-          <TableColumn prefWidth="167.3333282470703" text="Tên " />
-          <TableColumn prefWidth="103.3333740234375" text="Mã " />
-            <TableColumn prefWidth="119.33328247070312" text="Số lượng " />
+          <TableColumn prefWidth="160.66664123535156" text="Tên " />
+          <TableColumn prefWidth="107.33331298828125" text="Mã " />
+            <TableColumn prefWidth="123.33328247070312" text="Số lượng " />
             <TableColumn minWidth="6.66668701171875" prefWidth="112.66668701171875" text="Giá " />
         </columns>
       </TableView>

@@ -22,22 +22,17 @@
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="32.0" layoutY="205.0" mnemonicParsing="false" text="Quản lý sản phẩm">
+            <Button layoutX="31.0" layoutY="244.0" mnemonicParsing="false" text="Quản lý sản phẩm">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="259.0" mnemonicParsing="false" text="Quản lý đơn hàng">
+            <Button layoutX="26.0" layoutY="312.0" mnemonicParsing="false" text="Quản lý đơn hàng">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="35.0" layoutY="370.0" mnemonicParsing="false" text="Liệt kê đơn hàng">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="32.0" layoutY="309.0" mnemonicParsing="false" text="Quản lý nhân viên">
+            <Button layoutX="32.0" layoutY="375.0" mnemonicParsing="false" text="Quản lý nhân viên">
                <font>
                   <Font size="14.0" />
                </font>
