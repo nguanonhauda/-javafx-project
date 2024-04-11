@@ -1,24 +1,24 @@
 package Code;
 
 public class QLSP {
-    private String tensp; 
-    private int masp;     
+    private String tenSP; 
+    private int maSP;     
     private int soLuongSP; 
-    private double giaSp; 
+    private double giaSP; 
 
-    public QLSP(String tensp, int masp, int soLuongSP, double giaSp) { 
-        this.tensp = tensp;
-        this.masp = masp;
+    public QLSP(String tenSP, int maSP, int soLuongSP, double giaSP) { 
+        this.tenSP = tenSP;
+        this.maSP = maSP;
         this.soLuongSP = soLuongSP;
-        this.giaSp = giaSp;
+        this.giaSP = giaSP;
     }
 
-    public String getTensp() { 
-        return this.tensp;
+    public String getTenSP() { 
+        return this.tenSP;
     }
 
-    public int getMasp() { 
-        return this.masp;
+    public int getMaSP() { 
+        return this.maSP;
     }
 
     public int getSoLuongSP() { 
@@ -26,6 +26,8 @@ public class QLSP {
     }
 
     public double getGiaSp() { 
-        return this.giaSp;
+        return this.giaSP;
     }
+
+    
 }

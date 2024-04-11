@@ -1,34 +1,31 @@
 package Code;
 
-import java.time.LocalDate;
 public class QLNV {
-    private String tennv ; 
-    private String sdtnv ; 
-    private String diaChiNV; 
-    private String chucVu ; 
-    private LocalDate ngayLamViec ;
-    
-    public QLNV (String tennv,String sdtnv, String diaChiNV,String chucVu,LocalDate ngayLamViec) {
-        this.tennv = tennv ;
-        this.sdtnv = sdtnv ; 
-        this.diaChiNV = diaChiNV ;
-        this.chucVu = chucVu ; 
-        this.ngayLamViec = ngayLamViec ;
+    private String tenNV; 
+    private String sdtNV; 
+    private int maNV; 
+    private String chucVu; 
+
+    public QLNV(String tenNV, String sdtNV, int maNV, String chucVu) {
+        this.tenNV = tenNV;
+        this.sdtNV = sdtNV; 
+        this.maNV = maNV;
+        this.chucVu = chucVu; 
     }
-    public String getTennv(){
-        return this.tennv ; 
+
+    public String getTenNV() {
+        return this.tenNV; 
     }
-    public String getSdtnv(){
-        return this.sdtnv;
+
+    public String getSdtNV() {
+        return this.sdtNV;
     }
-    public String getDiaChiNV(){
-        return this.diaChiNV ;
+
+    public int getMaNV() {
+        return this.maNV; 
     }
-    public String getChucVu(){
-        return this.chucVu ;
+
+    public String getChucVu() {
+        return this.chucVu; 
     }
-    public LocalDate getNgayLamViec(){
-        return this.ngayLamViec ;
-    }
-    
 }
