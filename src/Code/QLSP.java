@@ -1,3 +1,5 @@
+package Code;
+
 public class QLSP {
     private String tensp; 
     private int masp;     
