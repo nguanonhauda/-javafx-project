@@ -41,45 +41,38 @@
       </AnchorPane>
       <TableView layoutX="182.0" prefHeight="231.0" prefWidth="578.0">
          <columns>
-            <TableColumn prefWidth="102.00003051757812" text="Tên " />
-            <TableColumn prefWidth="146.66668701171875" text="SĐT" />
-            <TableColumn prefWidth="134.6666259765625" text="Địa chỉ " />
-            <TableColumn minWidth="6.66668701171875" prefWidth="88.0" text="Chức vụ" />
-            <TableColumn prefWidth="110.0" text="Ngày làm việc" />
+            <TableColumn prefWidth="148.6667022705078" text="Tên " />
+            <TableColumn prefWidth="128.6666259765625" text="SĐT" />
+            <TableColumn prefWidth="160.66671752929688" text="Mã Nhân viên" />
+            <TableColumn minWidth="6.66668701171875" prefWidth="139.33331298828125" text="Chức vụ" />
          </columns>
       </TableView>
-      <Label layoutX="323.0" layoutY="277.0" prefHeight="20.0" prefWidth="31.0" text="Tên: ">
+      <Label layoutX="327.0" layoutY="286.0" prefHeight="20.0" prefWidth="31.0" text="Tên: ">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="369.0" layoutY="274.0" />
-      <Label layoutX="325.0" layoutY="328.0" text="SĐT:">
+      <TextField layoutX="373.0" layoutY="283.0" />
+      <Label layoutX="329.0" layoutY="337.0" text="SĐT:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label layoutX="308.0" layoutY="378.0" text="Đia chỉ:">
+      <Label layoutX="270.0" layoutY="387.0" text="Mã Nhân Viên:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label layoutX="304.0" layoutY="421.0" text="Chức vụ:">
+      <Label layoutX="308.0" layoutY="430.0" text="Chức vụ:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="369.0" layoutY="325.0" />
-      <TextField layoutX="369.0" layoutY="375.0" />
-      <TextField layoutX="369.0" layoutY="418.0" />
-      <Button layoutX="583.0" layoutY="300.0" mnemonicParsing="false" text="Thêm" />
-      <Button layoutX="575.0" layoutY="348.0" mnemonicParsing="false" text="Thay đổi" />
-      <Button layoutX="587.0" layoutY="398.0" mnemonicParsing="false" text="Xóa" />
-      <TextField layoutX="369.0" layoutY="461.0" />
-      <Label layoutX="267.0" layoutY="464.0" text="Ngày làm việc:">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
+      <TextField layoutX="373.0" layoutY="334.0" />
+      <TextField layoutX="373.0" layoutY="384.0" />
+      <TextField layoutX="373.0" layoutY="427.0" />
+      <Button layoutX="587.0" layoutY="309.0" mnemonicParsing="false" text="Thêm" />
+      <Button layoutX="579.0" layoutY="357.0" mnemonicParsing="false" text="Thay đổi" />
+      <Button layoutX="591.0" layoutY="407.0" mnemonicParsing="false" text="Xóa" />
    </children>
 </AnchorPane>
